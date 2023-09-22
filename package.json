@@ -1,0 +1,26 @@
+{
+  "name": "shinfo",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "deploy": "wrangler deploy",
+    "deploy:dry": "wrangler deploy --dry-run",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "@tsndr/cloudflare-worker-jwt": "2.2.2",
+    "discord-api-types": "0.37.57"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20230914.0",
+    "@tsconfig/strictest": "2.0.2",
+    "eslint": "8.49.0",
+    "eslint-config-promise": "github:promise/eslint-config",
+    "typescript": "5.2.2",
+    "wrangler": "3.9.0"
+  },
+  "eslintConfig": {
+    "extends": "promise"
+  }
+}
