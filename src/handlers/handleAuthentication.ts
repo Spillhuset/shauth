@@ -22,11 +22,7 @@ export default async function handleAuthentication(request: FetchEvent["request"
 
   const redirectUrl = new URL(systems[system].callbackUri);
   redirectUrl.searchParams.set("shauth", await sign({
-    aud: system,
     exp: Date.now() + 1000 * 60,
-    iat: Date.now(),
-    iss: "shauth",
-    sub: "token",
     id: user.id,
     name: member.nick ?? user.global_name ?? user.username,
     userFlags,
