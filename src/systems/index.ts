@@ -1,4 +1,5 @@
 import debug from "./debug";
+import localhost from "./localhost";
 import shinfo from "./shinfo";
 import shqueue from "./shqueue";
 
@@ -8,4 +9,4 @@ export interface System {
   encryptionKey: string;
 }
 
-export default { debug, shinfo, shqueue } satisfies Record<string, System>;
+export default { debug, localhost, shinfo, shqueue } satisfies Record<string, System>;
