@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@tsndr/cloudflare-worker-jwt':
-    specifier: 2.2.6
-    version: 2.2.6
+    specifier: 2.2.7
+    version: 2.2.7
   discord-api-types:
     specifier: 0.37.63
     version: 0.37.63
@@ -432,8 +432,8 @@ packages:
     resolution: {integrity: sha512-jt4jIsWKvUvuY6adJnQJlb/UR7DdjC8CjHI/OaSQruj2yX9/K6+KOvDt/vD6udqos/FUk5Op66CvYT7TBLYO5Q==}
     dev: true
 
-  /@tsndr/cloudflare-worker-jwt@2.2.6:
-    resolution: {integrity: sha512-HzhhQ5WCC1lPc2USiqt7noBIuIMX0xgwbSwrduqEhuZCUoEY/+9IAY1IMk3f3LFP8d9XCnz6w7DIxW111C4FqQ==}
+  /@tsndr/cloudflare-worker-jwt@2.2.7:
+    resolution: {integrity: sha512-mtwQrqMFYBOZSbRm6f1XDLZ9cEX5VO4hvFQcwyTD42rIzUcHG65K5o7nAjD+/GxE0Z+n+a8E1QaTlTFd5GKvxg==}
     dev: false
 
   /@types/json-schema@7.0.14:
