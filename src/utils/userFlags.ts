@@ -3,20 +3,20 @@ import type { Snowflake } from "discord-api-types/globals";
 
 /* eslint-disable no-bitwise */
 export enum UserFlags {
-  Crew = 1 << 0,
-  Key = 1 << 1,
   Adviser = 1 << 2,
-  Leader = 1 << 3,
-  EventMember = 1 << 4,
-  EventLeader = 1 << 5,
-  PRMember = 1 << 6,
-  PRLeader = 1 << 7,
-  StreamingMember = 1 << 8,
-  StreamingLeader = 1 << 9,
-  HR = 1 << 10,
-  Systems = 1 << 11,
-  BoardMember = 1 << 12,
   BoardLeader = 1 << 13,
+  BoardMember = 1 << 12,
+  Crew = 1 << 0,
+  EventLeader = 1 << 5,
+  EventMember = 1 << 4,
+  HR = 1 << 10,
+  Key = 1 << 1,
+  Leader = 1 << 3,
+  PRLeader = 1 << 7,
+  PRMember = 1 << 6,
+  StreamingLeader = 1 << 9,
+  StreamingMember = 1 << 8,
+  Systems = 1 << 11,
 }
 
 export function getUserFlags(roles: Snowflake[]): number {

@@ -31,6 +31,7 @@ addEventListener("fetch", event => {
     SYSTEM_SHINFO_KEY;
     SYSTEM_SHQUEUE_KEY;
     /* eslint-enable @typescript-eslint/no-unused-expressions */
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (err) {
     return event.respondWith(logResponse(new Response("Invalid environment variables", { status: 500 })));
   }
