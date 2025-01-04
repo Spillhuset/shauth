@@ -1,7 +1,7 @@
 import type { System } from ".";
 
 export default {
-  name: "shqueue.but-it-actually.works",
-  callbackUri: "https://shqueue.but-it-actually.works/auth",
+  name: "kø.spillhuset.app",
+  callbackUri: "https://kø.spillhuset.app/auth",
   encryptionKey: SYSTEM_SHQUEUE_KEY,
 } satisfies System;
