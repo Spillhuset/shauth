@@ -3,6 +3,9 @@ main = "./build/index.js"
 workers_dev = true
 compatibility_date = "2022-11-30"
 
+[observability.logs]
+enabled = true
+
 [build]
 command = "npm run build"
 
