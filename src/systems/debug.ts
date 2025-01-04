@@ -2,6 +2,6 @@ import type { System } from ".";
 
 export default {
   name: "Debug",
-  callbackUri: "https://shauth.but-it-actually.works/debug",
+  callbackUri: "https://oauth.spillhuset.app/debug",
   encryptionKey: "debug",
 } satisfies System;
