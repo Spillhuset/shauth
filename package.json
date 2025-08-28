@@ -13,7 +13,7 @@
     "discord-api-types": "0.38.21"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250828.0",
+    "@cloudflare/workers-types": "4.20250828.1",
     "@tsconfig/strictest": "2.0.5",
     "eslint": "9.34.0",
     "eslint-config-promise": "github:promise/eslint-config",
