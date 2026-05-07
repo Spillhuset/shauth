@@ -26,13 +26,13 @@ importers:
         version: 9.39.4(jiti@1.21.7)
       eslint-config-promise:
         specifier: github:promise/eslint-config
-        version: https://codeload.github.com/promise/eslint-config/tar.gz/a82d6ae4b0e96b90ebbcbf0cd6c477ef8fc5fc49(f0e3eb70f9c4822b32d092cbdb42b6bd)
+        version: https://codeload.github.com/promise/eslint-config/tar.gz/58d8b74d466c79741f615f4825aa16d509e4d581(f0e3eb70f9c4822b32d092cbdb42b6bd)
       typescript:
         specifier: 5.9.3
         version: 5.9.3
       wrangler:
-        specifier: 4.89.0
-        version: 4.89.0(@cloudflare/workers-types@4.20260507.1)
+        specifier: 4.90.0
+        version: 4.90.0(@cloudflare/workers-types@4.20260507.1)
 
 packages:
 
@@ -882,8 +882,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/a82d6ae4b0e96b90ebbcbf0cd6c477ef8fc5fc49:
-    resolution: {gitHosted: true, integrity: sha512-+JCDr5XRMPpq+4uxKE46nF5IWfajL8+81xofXNg5YJGs+h41QgwVq+mc02EMYk9N9aiewvi6We+qC6J3DiPu6w==, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/a82d6ae4b0e96b90ebbcbf0cd6c477ef8fc5fc49}
+  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/58d8b74d466c79741f615f4825aa16d509e4d581:
+    resolution: {gitHosted: true, integrity: sha512-t5A0eEAvIS727y4QEPIMv2hzYJ/gI2q36AudNYor+A+XAZmi7BIBbh8iYqEw/y4xfJEkd5vLuPoNfDhF5ulqEQ==, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/58d8b74d466c79741f615f4825aa16d509e4d581}
     version: 0.0.0
     peerDependencies:
       '@stylistic/eslint-plugin-js': 4.2.0
@@ -1342,8 +1342,8 @@ packages:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
 
-  miniflare@4.20260507.0:
-    resolution: {integrity: sha512-GdEI1wQZgCYot73fkMKKsdRBXcziqDzRnDvcXG5dWBW0Tu8xMN8+zIykrqE3GF0WfYjMDAIdri1ncoYu/aHhYw==}
+  miniflare@4.20260507.1:
+    resolution: {integrity: sha512-PSXBiLExTdZ4UGO/raKCHQauUpYL7F880ZRB7j0+78Rv8h7TsdN2E/iEDK9sK2Y+SPQ5wJSeAa+rDeVKoZZoEw==}
     engines: {node: '>=22.0.0'}
     hasBin: true
 
@@ -1803,8 +1803,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@4.89.0:
-    resolution: {integrity: sha512-Vm66tO2QBJoG4GdzcGDVofmI2U651w5AHgSd0bgXPqgrBqNqi1Iq3e23cXHGz8T7grLADrthkh+1J0VixzTSKw==}
+  wrangler@4.90.0:
+    resolution: {integrity: sha512-bmNIykl59TfCUn5xQgU7IWylSsPx3LQaPLMSAq2VQHt89CBrcj9qXQ0eYfjBCWA5XTBVgten391evt7xxtXwcA==}
     engines: {node: '>=22.0.0'}
     hasBin: true
     peerDependencies:
@@ -2696,7 +2696,7 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/a82d6ae4b0e96b90ebbcbf0cd6c477ef8fc5fc49(f0e3eb70f9c4822b32d092cbdb42b6bd):
+  eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/58d8b74d466c79741f615f4825aa16d509e4d581(f0e3eb70f9c4822b32d092cbdb42b6bd):
     dependencies:
       '@stylistic/eslint-plugin-js': 4.2.0(eslint@9.39.4(jiti@1.21.7))
       '@stylistic/eslint-plugin-jsx': 4.2.0(eslint@9.39.4(jiti@1.21.7))
@@ -3206,7 +3206,7 @@ snapshots:
       braces: 3.0.3
       picomatch: 2.3.2
 
-  miniflare@4.20260507.0:
+  miniflare@4.20260507.1:
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       sharp: 0.34.5
@@ -3808,13 +3808,13 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20260507.1
       '@cloudflare/workerd-windows-64': 1.20260507.1
 
-  wrangler@4.89.0(@cloudflare/workers-types@4.20260507.1):
+  wrangler@4.90.0(@cloudflare/workers-types@4.20260507.1):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.5.0
       '@cloudflare/unenv-preset': 2.16.1(unenv@2.0.0-rc.24)(workerd@1.20260507.1)
       blake3-wasm: 2.1.5
       esbuild: 0.27.3
-      miniflare: 4.20260507.0
+      miniflare: 4.20260507.1
       path-to-regexp: 6.3.0
       unenv: 2.0.0-rc.24
       workerd: 1.20260507.1
