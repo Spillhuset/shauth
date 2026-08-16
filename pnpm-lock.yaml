@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@tsndr/cloudflare-worker-jwt':
-        specifier: 3.2.1
-        version: 3.2.1
+        specifier: 3.2.3
+        version: 3.2.3
       discord-api-types:
         specifier: 0.38.53
         version: 0.38.53
@@ -537,8 +537,8 @@ packages:
   '@tsconfig/strictest@2.0.8':
     resolution: {integrity: sha512-XnQ7vNz5HRN0r88GYf1J9JJjqtZPiHt2woGJOo2dYqyHGGcd6OLGqSlBB6p1j9mpzja6Oe5BoPqWmeDx6X9rLw==}
 
-  '@tsndr/cloudflare-worker-jwt@3.2.1':
-    resolution: {integrity: sha512-1AfDEgu7DTbU0sXDSOKh4D5t7+RJ0dIRRaDmoX3LFeW0AxQdunuqTQ7AVGwNJqOnxrbxiruyvX01cf9HHqEvXQ==}
+  '@tsndr/cloudflare-worker-jwt@3.2.3':
+    resolution: {integrity: sha512-qAwqvhtO0d6Ixsxpi3a01HKCLQlwwjBxDoqF/6fvMEWgW/fdjE3AE8GqO8lQilryBilNX9wNR8p6vMbVWyzJ4Q==}
 
   '@types/estree@1.0.9':
     resolution: {integrity: sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg==}
@@ -896,7 +896,7 @@ packages:
     engines: {node: '>=10'}
 
   eslint-config-promise@https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148:
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148}
+    resolution: {gitHosted: true, integrity: sha512-qDWXd38Nxf4Yh2K/9KFnAu+3XCHZp0Ya8AsBuLDdlY8SIjHV1Fww28J95CLP7CCN+RazG24hvC7UzWvGMDVD1w==, tarball: https://codeload.github.com/promise/eslint-config/tar.gz/f35740d3efbeabb7f40ef7294fcefafc9d4b0148}
     version: 0.0.0
     peerDependencies:
       '@stylistic/eslint-plugin-js': 4.2.0
@@ -2210,7 +2210,7 @@ snapshots:
 
   '@tsconfig/strictest@2.0.8': {}
 
-  '@tsndr/cloudflare-worker-jwt@3.2.1': {}
+  '@tsndr/cloudflare-worker-jwt@3.2.3': {}
 
   '@types/estree@1.0.9': {}
 
